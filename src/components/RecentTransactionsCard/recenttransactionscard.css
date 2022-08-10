@@ -1,0 +1,47 @@
+.recent-transactions-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+  margin-top: 0.6rem;
+
+  padding: 1rem 1rem 1rem 0rem;
+
+  width: 100%;
+
+  border-bottom: 1px #d9d7d4 solid;
+}
+
+.recent-transactions-icon {
+  margin-right: 3.5rem;
+}
+
+.recent-transactions-text {
+  display: flex;
+  align-items: flex-start;
+  color: #2F3459;
+  margin-right: 3rem;
+  width: 20%;
+
+}
+
+.recent-transactions-date {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 10rem;
+}
+
+.recent-transactions-value {
+  display: flex;
+  align-items: flex-start;
+
+  width: 50px;
+
+  color: #2F3459;
+  margin-right: 10rem;
+}
+
+.recent-transactions-more {
+  display: flex;
+  align-items: flex-start;
+}

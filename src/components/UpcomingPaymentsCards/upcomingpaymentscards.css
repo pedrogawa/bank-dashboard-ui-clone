@@ -1,0 +1,51 @@
+.upcoming-payments-cards-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+  padding: 1.6rem;
+
+  width: 150px;
+
+  border-radius: 1.2rem;
+
+  background-color: #EFEDEC;
+
+  margin-right: 2.2rem;
+
+}
+
+.upcoming-payments-cards-top {
+  margin-bottom: 2.4rem;
+}
+
+.upcoming-payments-cards-icon {
+  background-color: #2F3459;
+  padding: 0.8rem;
+
+  border-radius: 1.4rem;
+}
+
+.upcoming-payments-cards-icon > svg {
+  color: white;
+}
+
+.upcoming-payments-cards-mid {
+  display: flex;
+  align-items: flex-start;
+
+  flex-direction: column;
+
+  margin-bottom: 1.6rem;
+}
+
+.upcoming-payments-text {
+  color: #2F3459;
+  margin-bottom: 0.4rem;
+}
+
+.upcoming-payments-value {
+  color: #2F3459;
+
+  font-size: 1.5rem;
+}

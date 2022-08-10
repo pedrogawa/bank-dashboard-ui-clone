@@ -1,0 +1,64 @@
+.main-container {
+  display: flex;
+
+  padding: 2rem;
+  background-color: #FDFBF9;
+  
+  width: 100%;
+  border-radius: 1.2rem;
+}
+
+.left-content {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  flex-direction: column;
+}
+
+.left-content-upper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  margin-bottom: 3rem;
+}
+
+.left-content-upper-left {
+  display: flex;
+  flex-direction: column;
+
+  align-items: flex-start;
+
+  margin-right: 3rem;
+}
+
+.left-content-upper-right {
+  display: flex;
+  align-items: flex-start;
+
+  flex-direction: column;
+}
+
+.left-content-upper-right-content {
+  display: flex;
+}
+
+.left-content-bottom {
+  display: flex;
+  align-items: flex-start;
+
+  width: 100%;
+}
+
+.right-content {
+  background-color: #EFEDEC;
+  padding: 0.6rem;
+  border-radius: 1.2rem;
+
+}
+
+.upcoming-payments-type {
+  color: grey;
+
+}

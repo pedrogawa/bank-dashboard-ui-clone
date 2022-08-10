@@ -1,0 +1,65 @@
+.credit-card-container {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+
+  padding: 1.4rem 1.6rem;
+
+  width: 270px;
+
+  border-radius: 1.2rem;
+
+  background-color: #4A274A; 
+}
+
+.credit-card-top {
+  margin-bottom: 4rem;
+}
+
+.chip-container {
+  height: 45px;
+  width: 60px;
+  background-color: grey;
+
+  border-radius: 0.6rem;
+}
+
+.credit-card-mid {
+  margin-bottom: 1.5rem;
+}
+
+.credit-card-number {
+  color: #FDFBF9;
+  font-weight: 400;
+  
+  font-size: 1.2rem;
+}
+
+.credit-card-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+.credit-card-holder {
+  display: flex;
+  align-items: flex-start;
+  
+  flex-direction: column;
+}
+
+.card-holder-text {
+  color: #FDFBF9;
+  font-size: 0.4rem;
+}
+
+.card-owner-text {
+  font-size: bold;
+  color: #FDFBF9;
+}
+
+.credit-card-brand > svg {
+  color: #FDFBF9;
+}

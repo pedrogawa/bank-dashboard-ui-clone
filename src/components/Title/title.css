@@ -1,0 +1,11 @@
+.title-container {
+  align-items: flex-start;
+  display: flex;
+
+  margin-bottom: 2rem;
+}
+
+.title-container > strong {
+  font-size: 1.4rem;
+  color: #2F3459;
+}
